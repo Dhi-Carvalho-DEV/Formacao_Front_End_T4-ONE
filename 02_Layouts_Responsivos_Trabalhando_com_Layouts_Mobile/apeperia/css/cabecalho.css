@@ -1,20 +1,14 @@
 .cabecalho {
-    color: #FFF;
-
     width: 100%;
-
-    box-sizing: border-box;
-
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    box-sizing: border-box;
+    position: absolute;
     padding-top: .75rem;
     padding-bottom: .75rem;
-
-    border-bottom: 1px solid #103D4A;
-
-    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid var(--borda-cabecalho-mobile);
+    color: var(--branco);
 }
 
 .cabecalho__logo {
@@ -26,11 +20,9 @@
 }
 
 .cabecalho__link {
-    font-size: 1.1rem;
-
     display: inline-block;
-
     margin-right: .7rem;
     margin-bottom: 1.25rem;
     margin-left: .7rem;
+    font-size: 1.1rem;
 }
